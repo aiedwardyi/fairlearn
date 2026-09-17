@@ -48,7 +48,7 @@ Bug fixes
   :code:`ValueError` naming the offending feature when a sensitive feature
   contains missing values, consistent with
   :class:`~fairlearn.metrics.MetricFrame`: :pr:`1713` by
-  :user:`SpiliosDimakopoulos` and :pr:`XXXX` by :user:`Edward Yi <aiedwardyi>`.
+  :user:`SpiliosDimakopoulos` and :pr:`1729` by :user:`Edward Yi <aiedwardyi>`.
 * Already-fitted adversarial estimators now enforce the same two-dimensional input requirement in :code:`predict` and :code:`partial_fit`, including when input validation is skipped: :pr:`1711` by :user:`Roman Lutz <romanlutz>`.
 
 Documentation
